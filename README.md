@@ -7,6 +7,16 @@ You can download the preprocessed sample dataset for this demo via our [Google D
 
 ## Run this Demo
 
+Use the following commands to install prerequisites.
+
+```bash
+# assuming using cuda 11.3
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+pip install colossalai==0.1.9+torch1.11cu11.3 -f https://release.colossalai.org
+```
+
+Use the following commands to execute training.
+
 ```Bash
 #!/usr/bin/env sh
 export DATA=/path/to/small-gpt-dataset.json'

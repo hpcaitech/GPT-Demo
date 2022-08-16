@@ -111,8 +111,7 @@ def main():
         test_interval=1,
         hooks=hook_list,
         display_progress=True,
-        return_output_label=False,
-        max_steps=100
+        return_output_label=False
     )
 
 
